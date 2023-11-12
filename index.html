@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <title>eovitox</title>
+</head>
+<body>
+    <main>
+        <section id="central-buttons-section">
+            <div>
+                <button type="button" class="nes-btn is-success central-button" onclick="pressed_button()">Pessoal</button>
+            </div>
+            <div>
+                <button type="button" class="nes-btn is-warning central-button white-font">Habilidades</button>                
+            </div>
+            <div>
+                <button type="button" class="nes-btn is-primary central-button">Experiências</button>    
+            </div>
+        </section>
+
+        <section id="person-section">
+            <i id="person">
+                <img src="./pngegg.png">
+                <p class="nes-balloon from-left nes-pointer" name="ballon">
+                    Seja bem-vindo ao meu site!
+                </p>
+            </i>
+        </section>
+        
+        <section id="extra-assets-section">
+            <div id="life-div">
+                <section class="icon-list">
+                    <i class="nes-icon is-little heart"></i>
+                    <i class="nes-icon is-little is-half heart"></i>
+                    <i class="nes-icon is-little is-transparent heart"></i>
+                </section>
+            </div>
+        </section>
+    </main>
+<script src="script.js">
+</script>
+</body>
+</html>
