@@ -9,7 +9,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+}
+main{
+    position: fixed;
 }
 
 #central-buttons-section {
@@ -57,6 +60,7 @@ body {
 
 #person p {
     align-self: flex-start;
+    opacity: 100%;
 }
 
 #extra-assets-section {
@@ -74,4 +78,5 @@ body {
     margin-right: 4vw;
     margin-top: 1vw;
 }
+
 
